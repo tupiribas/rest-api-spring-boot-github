@@ -1,13 +1,13 @@
-package com.konthub.kontHub;
+package com.example.konthub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KontHubApplication {
+public class ConsutgithubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KontHubApplication.class, args);
+		SpringApplication.run(ConsutgithubApplication.class, args);
 	}
 
 }

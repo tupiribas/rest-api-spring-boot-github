@@ -1,10 +1,10 @@
-package com.konthub.kontHub;
+package com.example.konthub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KontHubApplicationTests {
+class ConsutgithubApplicationTests {
 
 	@Test
 	void contextLoads() {
