@@ -2,8 +2,11 @@ package com.example.konthub.domain;
 
 public class User {
 	private Integer id;
+	private String name;
 	private String login;
 	private String avatar_url;
+	private String location;
+	private String bio;
 	
 	public String getAvatar_url() {
 		return avatar_url;
@@ -17,10 +20,28 @@ public class User {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getNome() {
+	public String getLogin() {
 		return login;
 	}
-	public void setNome(String nome) {
+	public void setLogin(String nome) {
 		this.login = nome;
+	}
+	public String getLocalizacao() {
+		return location;
+	}
+	public void setLocalizacao(String location) {
+		this.location = location;
+	}
+	public String getBio() {
+		return bio;
+	}
+	public void setBio(String bio) {
+		this.bio = bio;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 }

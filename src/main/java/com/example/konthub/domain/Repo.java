@@ -62,10 +62,10 @@ public class Repo {
 	public void setNome_completo(String full_name) {
 		this.full_name = full_name;
 	}
-	public String getNome() {
+	public String getNome_projeto() {
 		return name;
 	}
-	public void setNome(String name) {
+	public void setNome_projeto(String name) {
 		this.name = name;
 	}
 	public Integer getId() {
